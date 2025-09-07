@@ -7,18 +7,6 @@ package io.github.dev_namo.se.api;
 public interface SimpleEconomyAPI {
 
     /**
-     * 플러그인이 있는지 확인합니다.
-     *
-     * @return 플러그인이 있으면 true, 없으면 false
-     */
-    boolean isPluginAvailable();
-
-    /**
-     * 플러그인을 로드합니다.
-     */
-    void pluginLoad();
-
-    /**
      * 플레이어의 현재 잔고를 가져옵니다.
      *
      * @param playerUuid 잔고를 확인할 플레이어의 UUID
